@@ -14,7 +14,6 @@ spec:
         app: spring-petclinic
     spec:
       containers:
-      # modify the following line with your Docker Hub account name
       - image: index.docker.io/lucarnaudartelys/spring-petclinic:latest
         name: spring-petclinic
         ports:
